@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">&lt;/Harsh Kumar&gt;</a>
+
+        <nav class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h2>Hi, I'm</h2>
+            <h1>Harsh Kumar</h1>
+            <h2>A Novice Coder and Front-End Developer</h2>
+        </div>
+        <div class="img">
+            <img src="./images/home.png" alt="Web developer">
+        </div>
+    </section>
+
+    <section id="about" class="about-me">
+        <h2>About Me</h2>
+        <div>
+            <p>
+                Hello, I'm Harsh Kumar, a rookie Front-End Developer with passion for technology. I love to experiment with creative ways for bringing ideas to life with my mind and my fingertips. I am a young developer and my objective is to improve myself daily in tech stacks. I have a "TRYING TO DO BETTER" kinda personality.
+            </p>
+            <p>
+                So, that is pretty much me, interested in design and animations. I'm learning HTML and CSS currently. My next target is JavaScript.
+            </p>
+            <p>
+                Apart from all this, You will find me indulding in love for writing poems or just even mentally helping out my friends. I have a traveller's instinct inside myself. I am eager to grow, adapt and contribute to the world of Web Development.
+            </p>
+        </div>    
+    </section>
+
+    <section id="education" class="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>12th Completed by 90% in PCM</h3>
+                <p>
+                    From RPVV, Lajpat Nagar, New Delhi
+                </p>
+                <p>
+                    Passed in May 2024
+                </p>
+            </div>
+            <div class="education-item">
+                <h3>Doing B. Tech. in Computer Science and Engineering</h3>
+                <p>
+                    From NSUT, Dwarka, New Delhi
+                </p>
+                <p>
+                    In my First Year
+                </p>
+            </div>
+        </div>
+        <div>
+            <img src="./images//education.png" alt="education">
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">  
+            <!-- First project --> 
+            <div class="project-card">
+                <div class="image" id="img1"></div>
+                <h3>Penguin Animation</h3>
+                <div class="reveal">
+                    <p>This project is made mostly using by CSS and a little bit of HTML. It shows animation properties of CSS</p>
+                    <a href="https://github.com/nsutian-saksham/animated-penguin" target="_blank">Click me</a> 
+                </div>
+            </div>
+            <div class="project-card">
+                <!-- Second project --> 
+                <div class="image" id="img2"></div>
+                <h3>Tribute to Sir Stephen Hawking</h3>
+                <div class="reveal">
+                    <p>This page is dedicated to my inspiratio and favourite cosmologist, Sir Stephen Hawking. It shows the whole timeline of his life.</p>
+                    <a href="https://github.com/nsutian-saksham/tribute-page" target="_blank">Click me</a> 
+                </div>
+            </div>
+            <div class="project-card">
+                <!-- Third project -->
+                <div class="image" id="img3"></div>
+                <h3>Dummy Registration Form</h3>
+                <div class="reveal">
+                    <p>This project is a dummy Registration Form. I have made it using Basic HTML and CSS.</p>
+                    <a href="https://github.com/nsutian-saksham/MY-FIRST-PROJECT" target="_blank">Click me</a> 
+                </div>
+            </div>
+        </div>           
+    </section>
+
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2>Achievements</h2>
+            <div class="achievement-item">
+                <h3>Ranked Among top 16 teams in Hackathon</h3>
+                <p>
+                    Me and My team "RPVVByteBusters" was ranked among top 16 teams in Delhi Hackathon 2024 , held in IP Extension. I contributed to the team as presenter and designer.
+                </p>
+            </div> 
+            <div class="achievement-item">
+                <h3>I have participated and won Extempore and Mental Maths Quiz </h3>
+            </div>
+        </div>
+        <div>
+            <img src="./images//achievement.png" alt="achievement">
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+            <div class="social-links">
+                <h4>
+                    Socials
+                </h4>
+                <a href="https://www.instagram.com/nsutian_saksham/profilecard/?igsh=MWZrdGl3NXk2MHdiYQ==">Instagram</a>
+                <a href="http://www.linkedin.com/in/harsh-kumar-906530322">LinkedIn</a>
+            </div>
+            <form>
+                <div>
+                    <label for="name">Name</label>
+                    <input name="name" id="name" type="text">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input name="email" id="email" type="email">
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <input name="message" id="message" type="text">
+                </div>
+                <button type="button">Send</button>
+            </form>
+        </div>   
+    </section>
+    <footer>
+        <p>&copy; 2024 Harsh Kumar</p>
+    </footer>
+</body>
+</html>
